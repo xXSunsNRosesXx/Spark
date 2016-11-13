@@ -220,7 +220,7 @@
 				TargetAttributes = {
 					7CD096C21DD15663009D0314 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = B7A79B695Q;
+						DevelopmentTeam = ZQGAYPC9E8;
 						ProvisioningStyle = Automatic;
 					};
 					7CD096D61DD15663009D0314 = {
@@ -450,7 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = B7A79B695Q;
+				DEVELOPMENT_TEAM = ZQGAYPC9E8;
 				INFOPLIST_FILE = Spark/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -466,7 +466,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = B7A79B695Q;
+				DEVELOPMENT_TEAM = ZQGAYPC9E8;
 				INFOPLIST_FILE = Spark/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

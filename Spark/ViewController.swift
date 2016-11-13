@@ -4,13 +4,13 @@
 //
 //  Created by Sunrose Billing and Ezra Kirsh.
 //  Copyright © 2016 Sunrose Billing and Ezra Kirsh. All rights reserved.
-//  Github is cool
+//  Github is cool.
 
 import UIKit
 
 class ViewController: UIViewController {
 
-    var apps = ["Tinder", "Vine", "Twitter", "Uber", "Instagram", "Foursquare", "Spotify", "Travel app", "Craigslist", "Candy Crush", "Snapchat", "Videochat", "Camera App", "Periscope", "Keyboard app", "Soundcloud", "Netflix", "News app", "Yelp", "Google"]
+    var apps = ["Tinder", "Vine", "Twitter", "Uber", "Instagram", "Foursquare", "Spotify", "Travel app", "Craigslist", "Candy Crush", "Snapchat", "Videochat", "Camera App", "Periscope", "Soundcloud", "Netflix", "News app", "Yelp", "Google"]
     var ideas = ["pets", "streaming", "cooks", "students", "journalists", "accountants", "teachers", "janitors", "parents", "reading news", "pet owners", "teens", "artists", "children", "singers", "waiters", "collectors", "travellers", "bloggers", "doctors"]
     
     @IBOutlet weak var InspireMe: UIButton!
