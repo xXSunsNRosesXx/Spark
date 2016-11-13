@@ -4,7 +4,7 @@
 //
 //  Created by Sunrose Billing and Ezra Kirsh.
 //  Copyright © 2016 Sunrose Billing and Ezra Kirsh. All rights reserved.
-//
+//  Github is cool
 
 import UIKit
 
