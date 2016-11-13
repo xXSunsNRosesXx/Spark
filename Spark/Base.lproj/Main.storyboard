@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -24,7 +23,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vine for Dogs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eaR-eY-e1n">
-                                <rect key="frame" x="0.0" y="322" width="375" height="70"/>
+                                <rect key="frame" x="0.0" y="232" width="375" height="160"/>
                                 <color key="backgroundColor" red="0.48627450980392156" green="0.63137254901960782" blue="0.65098039215686276" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="160" id="FCn-ee-zOi"/>
@@ -47,7 +46,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SparkLogo Colored.png" translatesAutoresizingMaskIntoConstraints="NO" id="RYL-Yk-UIG">
-                                <rect key="frame" x="82" y="20" width="211" height="210"/>
+                                <rect key="frame" x="82" y="-70" width="211" height="210"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="210" id="oHt-DA-fTA"/>
                                     <constraint firstAttribute="width" secondItem="RYL-Yk-UIG" secondAttribute="height" multiplier="211:210" id="pSQ-NN-p4l"/>
@@ -64,7 +63,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Double tap to favorite idea" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w9t-Cg-3Ag">
-                                <rect key="frame" x="37" y="293" width="312" height="21"/>
+                                <rect key="frame" x="37" y="203" width="312" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="gGw-cQ-Yrt"/>
                                 </constraints>
@@ -115,12 +114,13 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="71" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="sNP-9O-3JR">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="630"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Favorites" rowHeight="71" id="XEe-GK-EQm">
                                         <rect key="frame" x="0.0" y="28" width="375" height="71"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XEe-GK-EQm" id="a0A-8R-HT4">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="70.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.98039215686274506" green="0.98039215686274506" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -130,6 +130,7 @@
                                 <connections>
                                     <outlet property="dataSource" destination="eTD-iA-tda" id="Dbq-r0-b83"/>
                                     <outlet property="delegate" destination="eTD-iA-tda" id="Pw9-sZ-fwj"/>
+                                    <outletCollection property="gestureRecognizers" destination="ahu-EI-Elj" appends="YES" id="5DZ-7n-sla"/>
                                 </connections>
                             </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Double click to delete" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="joO-XD-um3">
@@ -157,6 +158,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tmy-sS-f7s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="ahu-EI-Elj"/>
             </objects>
             <point key="canvasLocation" x="860" y="-262.21889055472263"/>
         </scene>
