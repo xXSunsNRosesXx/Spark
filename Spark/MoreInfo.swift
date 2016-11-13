@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class MoreInfo: UITableViewController {
+class MoreInfo: UIViewController {
     
     @IBOutlet weak var header1: UILabel!
     @IBOutlet weak var header2: UILabel!
@@ -36,7 +36,7 @@ class MoreInfo: UITableViewController {
             header1.text = option1
             header2.text = option2
             
-            let path = Bundle.main.path(forResource: option1, ofType: "txt")
+            let path = Bundle.main.path(forResource: "Vine", ofType: "txt")
             let text = try? NSString(contentsOfFile: path! as String, encoding: String.Encoding.utf8.rawValue)
             
             var firstFeatures: NSMutableArray = []
@@ -44,13 +44,20 @@ class MoreInfo: UITableViewController {
                 firstFeatures.add(line)
             })
             
-            let secondPath = Bundle.main.path(forResource: option1, ofType: "txt")
-            let secondText = try? NSString(contentsOfFile: path! as String, encoding: String.Encoding.utf8.rawValue)
+            let secondPath = Bundle.main.path(forResource: "Pets", ofType: "txt")
+            let secondText = try? NSString(contentsOfFile: secondPath! as String, encoding: String.Encoding.utf8.rawValue)
             
             var secondFeatures: NSMutableArray = []
-            text?.enumerateLines({ (line, stop) -> () in
+            secondText?.enumerateLines({ (line, stop) -> () in
                 secondFeatures.add(line)
             })
+            
+            label1.text = String(describing: firstFeatures[0])
+            label2.text = String(describing: firstFeatures[1])
+            label3.text = String(describing: firstFeatures[2])
+            label4.text = String(describing: secondFeatures[0])
+            label5.text = String(describing: secondFeatures[1])
+            label6.text = String(describing: secondFeatures[2])
         }
     }
 }

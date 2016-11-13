@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		00BE410C1DD81A8C004475CF /* MoreInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BE410B1DD81A8C004475CF /* MoreInfo.swift */; };
+		7C563BD31DD8210C0069AD97 /* Pets.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C563BD11DD8210C0069AD97 /* Pets.txt */; };
+		7C563BD41DD8210C0069AD97 /* Vine.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C563BD21DD8210C0069AD97 /* Vine.txt */; };
 		7C579CEC1DD4CB92006331D4 /* ProjectEpsilonLogoWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C579CEB1DD4CB92006331D4 /* ProjectEpsilonLogoWhite.png */; };
 		7C579CF41DD53761006331D4 /* SparkLogo Colored.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C579CF31DD53761006331D4 /* SparkLogo Colored.png */; };
 		7C579CF61DD5376E006331D4 /* SparkLogoWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C579CF51DD5376E006331D4 /* SparkLogoWhite.png */; };
@@ -41,6 +43,8 @@
 
 /* Begin PBXFileReference section */
 		00BE410B1DD81A8C004475CF /* MoreInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreInfo.swift; sourceTree = "<group>"; };
+		7C563BD11DD8210C0069AD97 /* Pets.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Pets.txt; sourceTree = "<group>"; };
+		7C563BD21DD8210C0069AD97 /* Vine.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Vine.txt; sourceTree = "<group>"; };
 		7C579CEB1DD4CB92006331D4 /* ProjectEpsilonLogoWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ProjectEpsilonLogoWhite.png; sourceTree = "<group>"; };
 		7C579CF31DD53761006331D4 /* SparkLogo Colored.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SparkLogo Colored.png"; sourceTree = "<group>"; };
 		7C579CF51DD5376E006331D4 /* SparkLogoWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SparkLogoWhite.png; sourceTree = "<group>"; };
@@ -118,6 +122,8 @@
 				7C579CEB1DD4CB92006331D4 /* ProjectEpsilonLogoWhite.png */,
 				7C579CF31DD53761006331D4 /* SparkLogo Colored.png */,
 				7C579CF51DD5376E006331D4 /* SparkLogoWhite.png */,
+				7C563BD11DD8210C0069AD97 /* Pets.txt */,
+				7C563BD21DD8210C0069AD97 /* Vine.txt */,
 				7CD096CD1DD15663009D0314 /* Assets.xcassets */,
 				7CD096CF1DD15663009D0314 /* LaunchScreen.storyboard */,
 				7CD096D21DD15663009D0314 /* Info.plist */,
@@ -251,12 +257,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C563BD41DD8210C0069AD97 /* Vine.txt in Resources */,
 				7C579CF61DD5376E006331D4 /* SparkLogoWhite.png in Resources */,
 				7C579CF41DD53761006331D4 /* SparkLogo Colored.png in Resources */,
 				7CD096D11DD15663009D0314 /* LaunchScreen.storyboard in Resources */,
 				7C579CEC1DD4CB92006331D4 /* ProjectEpsilonLogoWhite.png in Resources */,
 				7CD096CE1DD15663009D0314 /* Assets.xcassets in Resources */,
 				7CD096CC1DD15663009D0314 /* Main.storyboard in Resources */,
+				7C563BD31DD8210C0069AD97 /* Pets.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

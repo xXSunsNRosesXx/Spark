@@ -114,12 +114,13 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="71" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="sNP-9O-3JR">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="630"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Favorites" rowHeight="71" id="XEe-GK-EQm">
                                         <rect key="frame" x="0.0" y="28" width="375" height="71"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XEe-GK-EQm" id="a0A-8R-HT4">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="70.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.98039215686274506" green="0.98039215686274506" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -129,10 +130,11 @@
                                 <connections>
                                     <outlet property="dataSource" destination="eTD-iA-tda" id="Dbq-r0-b83"/>
                                     <outlet property="delegate" destination="eTD-iA-tda" id="Pw9-sZ-fwj"/>
+                                    <outletCollection property="gestureRecognizers" destination="ahu-EI-Elj" appends="YES" id="5DZ-7n-sla"/>
                                 </connections>
                             </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Double click to delete" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="joO-XD-um3">
-                                <rect key="frame" x="16" y="638" width="168" height="21"/>
+                                <rect key="frame" x="26" y="638" width="168" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="168" id="WlK-w3-6If"/>
                                 </constraints>
@@ -148,7 +150,7 @@
                             <constraint firstAttribute="trailing" secondItem="sNP-9O-3JR" secondAttribute="trailing" id="OKT-3s-6bI"/>
                             <constraint firstItem="sNP-9O-3JR" firstAttribute="leading" secondItem="tJn-oK-Ltt" secondAttribute="leading" id="diP-tO-a8F"/>
                             <constraint firstItem="sNP-9O-3JR" firstAttribute="top" secondItem="tJn-oK-Ltt" secondAttribute="top" id="hlN-H4-NJQ"/>
-                            <constraint firstItem="joO-XD-um3" firstAttribute="leading" secondItem="tJn-oK-Ltt" secondAttribute="leadingMargin" id="rLG-SS-Y8v"/>
+                            <constraint firstItem="joO-XD-um3" firstAttribute="leading" secondItem="tJn-oK-Ltt" secondAttribute="leadingMargin" constant="10" id="rLG-SS-Y8v"/>
                         </constraints>
                     </view>
                     <connections>
@@ -157,6 +159,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tmy-sS-f7s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="ahu-EI-Elj"/>
             </objects>
             <point key="canvasLocation" x="860" y="-262.21889055472263"/>
         </scene>
