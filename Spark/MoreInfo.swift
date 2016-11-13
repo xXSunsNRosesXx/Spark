@@ -21,10 +21,12 @@ class MoreInfo: UIViewController {
     @IBOutlet weak var label5: UILabel!
     @IBOutlet weak var label6: UILabel!
     
+    @IBOutlet weak var view1: UIView!
+    @IBOutlet weak var view2: UIView!
     
     var option1 = ""
     var option2 = ""
-    
+        
     override func viewDidLoad() {
         super.viewDidLoad()
         let defaults = UserDefaults.standard
@@ -35,6 +37,12 @@ class MoreInfo: UIViewController {
             
             header1.text = option1
             header2.text = option2
+            
+            var swipe = UISwipeGestureRecognizer(target: self, action: nil)
+            swipe.direction = UISwipeGestureRecognizerDirection.right
+            
+            view1.isUserInteractionEnabled = true
+            view2.isUserInteractionEnabled = true
             
             let path = Bundle.main.path(forResource: "Vine", ofType: "txt")
             let text = try? NSString(contentsOfFile: path! as String, encoding: String.Encoding.utf8.rawValue)

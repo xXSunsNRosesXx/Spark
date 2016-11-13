@@ -257,6 +257,8 @@
                         <outlet property="label4" destination="mRs-Hl-0gj" id="kSV-4h-jms"/>
                         <outlet property="label5" destination="muG-cR-jvv" id="d5o-MG-HNt"/>
                         <outlet property="label6" destination="E5l-g5-qwF" id="2AJ-st-sfP"/>
+                        <outlet property="view1" destination="Alj-Md-Jyu" id="8fv-SI-mPL"/>
+                        <outlet property="view2" destination="rKM-v6-7Ss" id="3Bt-1x-cgP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wza-7k-Dkh" userLabel="First Responder" sceneMemberID="firstResponder"/>
