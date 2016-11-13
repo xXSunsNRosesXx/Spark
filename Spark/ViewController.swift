@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    var apps = ["Tinder", "Vine", "Twitter", "Uber", "Instagram", "Foursquare", "Spotify", "Travel app", "Craigslist", "Candy Crush", "Snapchat", "Videochat", "Camera App", "Periscope", "Soundcloud", "Netflix", "News app", "Yelp", "Google"]
+    var apps = ["Tinder", "Vine", "Twitter", "Uber", "Instagram", "Foursquare", "Spotify", "Travel app", "Craigslist", "Candy Crush", "Snapchat", "Videochat", "Camera App", "Periscope", "Soundcloud", "Netflix", "News app", "Yelp"]
     var ideas = ["pets", "streaming", "cooks", "students", "journalists", "accountants", "teachers", "janitors", "parents", "reading news", "pet owners", "teens", "artists", "children", "singers", "waiters", "collectors", "travellers", "bloggers", "doctors"]
     
     @IBOutlet weak var InspireMe: UIButton!
@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func buttonClicked(_ sender: Any) {
-        ideaLabel.text = apps[Int(arc4random() % 20)] + " for " + ideas[Int(arc4random() % 20)]
+        ideaLabel.text = apps[Int(arc4random() % 19)] + " for " + ideas[Int(arc4random() % 20)]
     }
     
     override var prefersStatusBarHidden: Bool{
@@ -29,7 +29,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        ideaLabel.text = apps[Int(arc4random() % 20)] + " for " + ideas[Int(arc4random() % 20)]
+        ideaLabel.text = apps[Int(arc4random() % 19)] + " for " + ideas[Int(arc4random() % 20)]
         InspireMe.layer.cornerRadius = 20
         
         let doubletap = UITapGestureRecognizer(target: self, action: #selector(tap))

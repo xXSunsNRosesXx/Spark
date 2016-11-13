@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		00BE410C1DD81A8C004475CF /* MoreInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BE410B1DD81A8C004475CF /* MoreInfo.swift */; };
 		00BE410E1DD82EE8004475CF /* Instagram.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00BE410D1DD82EE8004475CF /* Instagram.txt */; };
+		00BE41101DD82FB4004475CF /* Candy crush.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00BE410F1DD82FB4004475CF /* Candy crush.txt */; };
+		00BE41121DD82FBD004475CF /* Craigslist.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00BE41111DD82FBD004475CF /* Craigslist.txt */; };
+		00BE41141DD82FC7004475CF /* Snapchat.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00BE41131DD82FC7004475CF /* Snapchat.txt */; };
+		00BE411B1DD82FD7004475CF /* Spotify.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00BE41151DD82FD7004475CF /* Spotify.txt */; };
+		00BE411C1DD82FD7004475CF /* Tinder.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00BE41161DD82FD7004475CF /* Tinder.txt */; };
+		00BE411D1DD82FD7004475CF /* Travel app.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00BE41171DD82FD7004475CF /* Travel app.txt */; };
+		00BE411E1DD82FD7004475CF /* Twitter.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00BE41181DD82FD7004475CF /* Twitter.txt */; };
+		00BE411F1DD82FD7004475CF /* Uber.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00BE41191DD82FD7004475CF /* Uber.txt */; };
+		00BE41201DD82FD7004475CF /* Videochat.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00BE411A1DD82FD7004475CF /* Videochat.txt */; };
 		7C563BD31DD8210C0069AD97 /* Pets.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C563BD11DD8210C0069AD97 /* Pets.txt */; };
 		7C563BD41DD8210C0069AD97 /* Vine.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C563BD21DD8210C0069AD97 /* Vine.txt */; };
 		7C579CEC1DD4CB92006331D4 /* ProjectEpsilonLogoWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C579CEB1DD4CB92006331D4 /* ProjectEpsilonLogoWhite.png */; };
@@ -45,6 +54,15 @@
 /* Begin PBXFileReference section */
 		00BE410B1DD81A8C004475CF /* MoreInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreInfo.swift; sourceTree = "<group>"; };
 		00BE410D1DD82EE8004475CF /* Instagram.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Instagram.txt; sourceTree = "<group>"; };
+		00BE410F1DD82FB4004475CF /* Candy crush.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Candy crush.txt"; sourceTree = "<group>"; };
+		00BE41111DD82FBD004475CF /* Craigslist.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Craigslist.txt; sourceTree = "<group>"; };
+		00BE41131DD82FC7004475CF /* Snapchat.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Snapchat.txt; sourceTree = "<group>"; };
+		00BE41151DD82FD7004475CF /* Spotify.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Spotify.txt; sourceTree = "<group>"; };
+		00BE41161DD82FD7004475CF /* Tinder.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Tinder.txt; sourceTree = "<group>"; };
+		00BE41171DD82FD7004475CF /* Travel app.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Travel app.txt"; sourceTree = "<group>"; };
+		00BE41181DD82FD7004475CF /* Twitter.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Twitter.txt; sourceTree = "<group>"; };
+		00BE41191DD82FD7004475CF /* Uber.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Uber.txt; sourceTree = "<group>"; };
+		00BE411A1DD82FD7004475CF /* Videochat.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Videochat.txt; sourceTree = "<group>"; };
 		7C563BD11DD8210C0069AD97 /* Pets.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Pets.txt; sourceTree = "<group>"; };
 		7C563BD21DD8210C0069AD97 /* Vine.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Vine.txt; sourceTree = "<group>"; };
 		7C579CEB1DD4CB92006331D4 /* ProjectEpsilonLogoWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ProjectEpsilonLogoWhite.png; sourceTree = "<group>"; };
@@ -125,8 +143,17 @@
 				7C579CF31DD53761006331D4 /* SparkLogo Colored.png */,
 				7C579CF51DD5376E006331D4 /* SparkLogoWhite.png */,
 				00BE410D1DD82EE8004475CF /* Instagram.txt */,
+				00BE41111DD82FBD004475CF /* Craigslist.txt */,
+				00BE41131DD82FC7004475CF /* Snapchat.txt */,
 				7C563BD11DD8210C0069AD97 /* Pets.txt */,
+				00BE410F1DD82FB4004475CF /* Candy crush.txt */,
 				7C563BD21DD8210C0069AD97 /* Vine.txt */,
+				00BE41151DD82FD7004475CF /* Spotify.txt */,
+				00BE41161DD82FD7004475CF /* Tinder.txt */,
+				00BE41171DD82FD7004475CF /* Travel app.txt */,
+				00BE41181DD82FD7004475CF /* Twitter.txt */,
+				00BE41191DD82FD7004475CF /* Uber.txt */,
+				00BE411A1DD82FD7004475CF /* Videochat.txt */,
 				7CD096CD1DD15663009D0314 /* Assets.xcassets */,
 				7CD096CF1DD15663009D0314 /* LaunchScreen.storyboard */,
 				7CD096D21DD15663009D0314 /* Info.plist */,
@@ -262,13 +289,22 @@
 			files = (
 				7C563BD41DD8210C0069AD97 /* Vine.txt in Resources */,
 				7C579CF61DD5376E006331D4 /* SparkLogoWhite.png in Resources */,
+				00BE41201DD82FD7004475CF /* Videochat.txt in Resources */,
 				7C579CF41DD53761006331D4 /* SparkLogo Colored.png in Resources */,
 				7CD096D11DD15663009D0314 /* LaunchScreen.storyboard in Resources */,
 				00BE410E1DD82EE8004475CF /* Instagram.txt in Resources */,
 				7C579CEC1DD4CB92006331D4 /* ProjectEpsilonLogoWhite.png in Resources */,
 				7CD096CE1DD15663009D0314 /* Assets.xcassets in Resources */,
+				00BE41101DD82FB4004475CF /* Candy crush.txt in Resources */,
+				00BE411C1DD82FD7004475CF /* Tinder.txt in Resources */,
+				00BE411B1DD82FD7004475CF /* Spotify.txt in Resources */,
+				00BE41141DD82FC7004475CF /* Snapchat.txt in Resources */,
+				00BE411D1DD82FD7004475CF /* Travel app.txt in Resources */,
+				00BE411E1DD82FD7004475CF /* Twitter.txt in Resources */,
 				7CD096CC1DD15663009D0314 /* Main.storyboard in Resources */,
 				7C563BD31DD8210C0069AD97 /* Pets.txt in Resources */,
+				00BE411F1DD82FD7004475CF /* Uber.txt in Resources */,
+				00BE41121DD82FBD004475CF /* Craigslist.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
