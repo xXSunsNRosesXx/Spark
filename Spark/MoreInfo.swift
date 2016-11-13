@@ -2,8 +2,8 @@
 //  MoreInfo.swift
 //  Spark
 //
-//  Created by Ezra Kirsh on 2016-11-12.
-//  Copyright © 2016 Sunrose. All rights reserved.
+//  Created by Sunrose Billing and Ezra Kirsh.
+//  Copyright © 2016 Sunrose Billing and Ezra Kirsh. All rights reserved.
 //
 
 import Foundation
@@ -20,7 +20,6 @@ class MoreInfo: UIViewController {
     @IBOutlet weak var label4: UILabel!
     @IBOutlet weak var label5: UILabel!
     @IBOutlet weak var label6: UILabel!
-    
     
     var option1 = ""
     var option2 = ""
