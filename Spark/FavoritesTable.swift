@@ -41,10 +41,25 @@ class FavoritesTable: UIViewController, UITableViewDelegate, UITableViewDataSour
         let doubletap = UITapGestureRecognizer(target: self, action: #selector(deleteTapped))
         doubletap.numberOfTapsRequired = 2
         
+        let swipe = UISwipeGestureRecognizer(target: self, action: #selector(swipeOnCell))
+        swipe.direction = UISwipeGestureRecognizerDirection.left
+        
         cell.isUserInteractionEnabled = true
         cell.addGestureRecognizer(doubletap)
+        cell.addGestureRecognizer(swipe)
         
         return cell
+    }
+    
+    func swipeOnCell(sender: UISwipeGestureRecognizer) {
+        let cell: UITableViewCell = sender.view as! UITableViewCell!
+        let defaults = UserDefaults.standard
+        let cellText = cell.textLabel?.text
+        
+        let options = cellText?.components(separatedBy: " for ")
+        print(options)
+        defaults.set(options, forKey: "currentInfo")
+        self.performSegue(withIdentifier: "info", sender: self)
     }
     
     func hexStringToUIColor (hex:String) -> UIColor {
@@ -67,6 +82,10 @@ class FavoritesTable: UIViewController, UITableViewDelegate, UITableViewDataSour
             blue: CGFloat(rgbValue & 0x0000FF) / 255.0,
             alpha: CGFloat(1.0)
         )
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
     }
     
     func loadList(notification: NSNotification){

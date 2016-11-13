@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00BE410C1DD81A8C004475CF /* MoreInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BE410B1DD81A8C004475CF /* MoreInfo.swift */; };
 		7C563BD31DD8210C0069AD97 /* Pets.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C563BD11DD8210C0069AD97 /* Pets.txt */; };
 		7C563BD41DD8210C0069AD97 /* Vine.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C563BD21DD8210C0069AD97 /* Vine.txt */; };
 		7C579CEC1DD4CB92006331D4 /* ProjectEpsilonLogoWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C579CEB1DD4CB92006331D4 /* ProjectEpsilonLogoWhite.png */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00BE410B1DD81A8C004475CF /* MoreInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreInfo.swift; sourceTree = "<group>"; };
 		7C563BD11DD8210C0069AD97 /* Pets.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Pets.txt; sourceTree = "<group>"; };
 		7C563BD21DD8210C0069AD97 /* Vine.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Vine.txt; sourceTree = "<group>"; };
 		7C579CEB1DD4CB92006331D4 /* ProjectEpsilonLogoWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ProjectEpsilonLogoWhite.png; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 		7CD096C51DD15663009D0314 /* Spark */ = {
 			isa = PBXGroup;
 			children = (
+				00BE410B1DD81A8C004475CF /* MoreInfo.swift */,
 				7CD096C61DD15663009D0314 /* AppDelegate.swift */,
 				7C579CF71DD5386C006331D4 /* SlideMenuController.swift */,
 				7CD096C81DD15663009D0314 /* ViewController.swift */,
@@ -287,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CD096C91DD15663009D0314 /* ViewController.swift in Sources */,
+				00BE410C1DD81A8C004475CF /* MoreInfo.swift in Sources */,
 				7C579CF81DD5386C006331D4 /* SlideMenuController.swift in Sources */,
 				7C579CFA1DD54741006331D4 /* FavoritesTable.swift in Sources */,
 				7CD096C71DD15663009D0314 /* AppDelegate.swift in Sources */,
