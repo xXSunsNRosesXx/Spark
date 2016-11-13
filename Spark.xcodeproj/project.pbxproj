@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00BE410C1DD81A8C004475CF /* MoreInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BE410B1DD81A8C004475CF /* MoreInfo.swift */; };
 		7C579CEC1DD4CB92006331D4 /* ProjectEpsilonLogoWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C579CEB1DD4CB92006331D4 /* ProjectEpsilonLogoWhite.png */; };
 		7C579CF41DD53761006331D4 /* SparkLogo Colored.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C579CF31DD53761006331D4 /* SparkLogo Colored.png */; };
 		7C579CF61DD5376E006331D4 /* SparkLogoWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C579CF51DD5376E006331D4 /* SparkLogoWhite.png */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00BE410B1DD81A8C004475CF /* MoreInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreInfo.swift; sourceTree = "<group>"; };
 		7C579CEB1DD4CB92006331D4 /* ProjectEpsilonLogoWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ProjectEpsilonLogoWhite.png; sourceTree = "<group>"; };
 		7C579CF31DD53761006331D4 /* SparkLogo Colored.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SparkLogo Colored.png"; sourceTree = "<group>"; };
 		7C579CF51DD5376E006331D4 /* SparkLogoWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SparkLogoWhite.png; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 		7CD096C51DD15663009D0314 /* Spark */ = {
 			isa = PBXGroup;
 			children = (
+				00BE410B1DD81A8C004475CF /* MoreInfo.swift */,
 				7CD096C61DD15663009D0314 /* AppDelegate.swift */,
 				7C579CF71DD5386C006331D4 /* SlideMenuController.swift */,
 				7CD096C81DD15663009D0314 /* ViewController.swift */,
@@ -208,7 +211,7 @@
 				TargetAttributes = {
 					7CD096C21DD15663009D0314 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = ZQGAYPC9E8;
+						DevelopmentTeam = B7A79B695Q;
 						ProvisioningStyle = Automatic;
 					};
 					7CD096D61DD15663009D0314 = {
@@ -279,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CD096C91DD15663009D0314 /* ViewController.swift in Sources */,
+				00BE410C1DD81A8C004475CF /* MoreInfo.swift in Sources */,
 				7C579CF81DD5386C006331D4 /* SlideMenuController.swift in Sources */,
 				7C579CFA1DD54741006331D4 /* FavoritesTable.swift in Sources */,
 				7CD096C71DD15663009D0314 /* AppDelegate.swift in Sources */,
@@ -434,7 +438,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = ZQGAYPC9E8;
+				DEVELOPMENT_TEAM = B7A79B695Q;
 				INFOPLIST_FILE = Spark/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -450,7 +454,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = ZQGAYPC9E8;
+				DEVELOPMENT_TEAM = B7A79B695Q;
 				INFOPLIST_FILE = Spark/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
