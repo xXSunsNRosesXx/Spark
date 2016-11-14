@@ -44,7 +44,7 @@ class MoreInfo: UIViewController {
             view1.isUserInteractionEnabled = true
             view2.isUserInteractionEnabled = true
             
-            let path = Bundle.main.path(forResource: "Vine", ofType: "txt")
+            let path = Bundle.main.path(forResource: option1, ofType: "txt")
             let text = try? NSString(contentsOfFile: path! as String, encoding: String.Encoding.utf8.rawValue)
             
             var firstFeatures: NSMutableArray = []
@@ -52,7 +52,7 @@ class MoreInfo: UIViewController {
                 firstFeatures.add(line)
             })
             
-            let secondPath = Bundle.main.path(forResource: "Pets", ofType: "txt")
+            let secondPath = Bundle.main.path(forResource: option2, ofType: "txt")
             let secondText = try? NSString(contentsOfFile: secondPath! as String, encoding: String.Encoding.utf8.rawValue)
             
             var secondFeatures: NSMutableArray = []
