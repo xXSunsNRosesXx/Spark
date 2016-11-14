@@ -2,8 +2,8 @@
 //  MoreInfo.swift
 //  Spark
 //
-//  Created by Ezra Kirsh on 2016-11-12.
-//  Copyright © 2016 Sunrose. All rights reserved.
+//  Created by Sunrose Billing and Ezra Kirsh.
+//  Copyright © 2016 Sunrose Billing and Ezra Kirsh. All rights reserved.
 //
 
 import Foundation
@@ -20,12 +20,21 @@ class MoreInfo: UIViewController {
     @IBOutlet weak var label4: UILabel!
     @IBOutlet weak var label5: UILabel!
     @IBOutlet weak var label6: UILabel!
-    
     @IBOutlet weak var view1: UIView!
     @IBOutlet weak var view2: UIView!
     
     var option1 = ""
     var option2 = ""
+    
+    func swipeBack() {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let mainViewController = storyboard.instantiateViewController(withIdentifier: "main")
+        let leftViewController = storyboard.instantiateViewController(withIdentifier: "favorites")
+        
+        let slideMenuController = SlideMenuController(mainViewController: mainViewController, leftMenuViewController: leftViewController, rightMenuViewController: leftViewController)
+        slideMenuController.modalTransitionStyle = .crossDissolve
+        self.present(slideMenuController, animated: true, completion: nil)
+    }
         
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,8 +47,11 @@ class MoreInfo: UIViewController {
             header1.text = option1
             header2.text = option2
             
-            var swipe = UISwipeGestureRecognizer(target: self, action: nil)
+            var swipe = UISwipeGestureRecognizer(target: self, action: #selector(swipeBack))
             swipe.direction = UISwipeGestureRecognizerDirection.right
+            
+            view1.addGestureRecognizer(swipe)
+            view2.addGestureRecognizer(swipe)
             
             view1.isUserInteractionEnabled = true
             view2.isUserInteractionEnabled = true

@@ -1,0 +1,3 @@
+Provides user with latest info.
+Can house different genres and content.
+Users have credible information instantly.
