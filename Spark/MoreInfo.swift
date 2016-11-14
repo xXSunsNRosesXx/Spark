@@ -20,10 +20,22 @@ class MoreInfo: UIViewController {
     @IBOutlet weak var label4: UILabel!
     @IBOutlet weak var label5: UILabel!
     @IBOutlet weak var label6: UILabel!
+    @IBOutlet weak var view1: UIView!
+    @IBOutlet weak var view2: UIView!
     
     var option1 = ""
     var option2 = ""
     
+    func swipeBack() {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let mainViewController = storyboard.instantiateViewController(withIdentifier: "main")
+        let leftViewController = storyboard.instantiateViewController(withIdentifier: "favorites")
+        
+        let slideMenuController = SlideMenuController(mainViewController: mainViewController, leftMenuViewController: leftViewController, rightMenuViewController: leftViewController)
+        slideMenuController.modalTransitionStyle = .crossDissolve
+        self.present(slideMenuController, animated: true, completion: nil)
+    }
+        
     override func viewDidLoad() {
         super.viewDidLoad()
         let defaults = UserDefaults.standard
@@ -35,7 +47,16 @@ class MoreInfo: UIViewController {
             header1.text = option1
             header2.text = option2
             
-            let path = Bundle.main.path(forResource: "Vine", ofType: "txt")
+            var swipe = UISwipeGestureRecognizer(target: self, action: #selector(swipeBack))
+            swipe.direction = UISwipeGestureRecognizerDirection.right
+            
+            view1.addGestureRecognizer(swipe)
+            view2.addGestureRecognizer(swipe)
+            
+            view1.isUserInteractionEnabled = true
+            view2.isUserInteractionEnabled = true
+            
+            let path = Bundle.main.path(forResource: option1, ofType: "txt")
             let text = try? NSString(contentsOfFile: path! as String, encoding: String.Encoding.utf8.rawValue)
             
             var firstFeatures: NSMutableArray = []
@@ -43,7 +64,7 @@ class MoreInfo: UIViewController {
                 firstFeatures.add(line)
             })
             
-            let secondPath = Bundle.main.path(forResource: "Pets", ofType: "txt")
+            let secondPath = Bundle.main.path(forResource: option2, ofType: "txt")
             let secondText = try? NSString(contentsOfFile: secondPath! as String, encoding: String.Encoding.utf8.rawValue)
             
             var secondFeatures: NSMutableArray = []

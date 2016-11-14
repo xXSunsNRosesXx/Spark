@@ -21,6 +21,8 @@ class ViewController: UIViewController {
     
     @IBAction func buttonClicked(_ sender: Any) {
         ideaLabel.text = apps[Int(arc4random() % 18)] + " for " + ideas[Int(arc4random() % 20)]
+
+        ideaLabel.text = apps[Int(arc4random() % 19)] + " for " + ideas[Int(arc4random() % 20)]
     }
     
     override var prefersStatusBarHidden: Bool{
@@ -30,6 +32,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         ideaLabel.text = apps[Int(arc4random() % 18)] + " for " + ideas[Int(arc4random() % 20)]
+
+        ideaLabel.text = apps[Int(arc4random() % 19)] + " for " + ideas[Int(arc4random() % 20)]
+
         InspireMe.layer.cornerRadius = 20
         
         let doubletap = UITapGestureRecognizer(target: self, action: #selector(tap))
@@ -51,6 +56,7 @@ class ViewController: UIViewController {
             var backup = [ideaLabel.text]
             defaults.set(backup, forKey: "favorites")
         }
+        self.slideMenuController()?.openRight()
     }
 
     override func didReceiveMemoryWarning() {
