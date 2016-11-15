@@ -34,9 +34,16 @@ class FavoritesTable: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
         let cell:UITableViewCell = self.TableView.dequeueReusableCell(withIdentifier: "Favorites")!
         cell.textLabel?.text = String(describing: data[indexPath.row])
         cell.textLabel?.textColor = hexStringToUIColor(hex: "#5C8399")
+        
+        
+        if indexPath.row == 0 {
+            cell.textLabel?.font = UIFont.systemFont(ofSize: 17.0, weight: UIFontWeightHeavy)
+            cell.textLabel?.text = (cell.textLabel?.text)! + ">>>>>>"
+        }
         
         let doubletap = UITapGestureRecognizer(target: self, action: #selector(deleteTapped))
         doubletap.numberOfTapsRequired = 2
@@ -59,6 +66,7 @@ class FavoritesTable: UIViewController, UITableViewDelegate, UITableViewDataSour
         let options = cellText?.components(separatedBy: " for ")
         print(options)
         defaults.set(options, forKey: "currentInfo")
+        print("SEGUE ABOUT TO HAPPEN")
         self.performSegue(withIdentifier: "info", sender: self)
     }
     

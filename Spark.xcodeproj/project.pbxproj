@@ -7,38 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00822B621DDA79DC0053EF42 /* Instagram.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00822B611DDA79DC0053EF42 /* Instagram.txt */; };
+		00822B661DDA79EB0053EF42 /* Candy Crush.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00822B631DDA79EB0053EF42 /* Candy Crush.txt */; };
+		00822B671DDA79EB0053EF42 /* Craigslist.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00822B641DDA79EB0053EF42 /* Craigslist.txt */; };
+		00822B681DDA79EB0053EF42 /* Instagram.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00822B651DDA79EB0053EF42 /* Instagram.txt */; };
+		00822B6A1DDA7CB20053EF42 /* Snapchat.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00822B691DDA7CB20053EF42 /* Snapchat.txt */; };
+		00822B711DDA86320053EF42 /* FBShimmeringLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 00822B6E1DDA86320053EF42 /* FBShimmeringLayer.m */; };
+		00822B721DDA86320053EF42 /* FBShimmeringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00822B701DDA86320053EF42 /* FBShimmeringView.m */; };
 		00BE410C1DD81A8C004475CF /* MoreInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BE410B1DD81A8C004475CF /* MoreInfo.swift */; };
-		00BE410E1DD82EE8004475CF /* Instagram.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00BE410D1DD82EE8004475CF /* Instagram.txt */; };
-		00BE41101DD82FB4004475CF /* Candy crush.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00BE410F1DD82FB4004475CF /* Candy crush.txt */; };
-		00BE41121DD82FBD004475CF /* Craigslist.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00BE41111DD82FBD004475CF /* Craigslist.txt */; };
-		00BE41141DD82FC7004475CF /* Snapchat.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00BE41131DD82FC7004475CF /* Snapchat.txt */; };
-		00BE411B1DD82FD7004475CF /* Spotify.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00BE41151DD82FD7004475CF /* Spotify.txt */; };
 		00BE411C1DD82FD7004475CF /* Tinder.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00BE41161DD82FD7004475CF /* Tinder.txt */; };
-		00BE411D1DD82FD7004475CF /* Travel app.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00BE41171DD82FD7004475CF /* Travel app.txt */; };
-		00BE411E1DD82FD7004475CF /* Twitter.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00BE41181DD82FD7004475CF /* Twitter.txt */; };
-		00BE411F1DD82FD7004475CF /* Uber.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00BE41191DD82FD7004475CF /* Uber.txt */; };
-		00BE41201DD82FD7004475CF /* Videochat.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00BE411A1DD82FD7004475CF /* Videochat.txt */; };
 		7C02B44F1DD8F6FC0023EF3C /* Accountants.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C02B42C1DD8F6FC0023EF3C /* Accountants.txt */; };
 		7C02B4501DD8F6FC0023EF3C /* Artists.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C02B42D1DD8F6FC0023EF3C /* Artists.txt */; };
 		7C02B4511DD8F6FC0023EF3C /* Bloggers.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C02B42E1DD8F6FC0023EF3C /* Bloggers.txt */; };
-		7C02B4521DD8F6FC0023EF3C /* Candy crush.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C02B42F1DD8F6FC0023EF3C /* Candy crush.txt */; };
 		7C02B4531DD8F6FC0023EF3C /* Children.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C02B4301DD8F6FC0023EF3C /* Children.txt */; };
 		7C02B4541DD8F6FC0023EF3C /* Collectors.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C02B4311DD8F6FC0023EF3C /* Collectors.txt */; };
 		7C02B4551DD8F6FC0023EF3C /* Cooks.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C02B4321DD8F6FC0023EF3C /* Cooks.txt */; };
-		7C02B4561DD8F6FC0023EF3C /* Craigslist.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C02B4331DD8F6FC0023EF3C /* Craigslist.txt */; };
 		7C02B4571DD8F6FC0023EF3C /* Doctors.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C02B4341DD8F6FC0023EF3C /* Doctors.txt */; };
 		7C02B4581DD8F6FC0023EF3C /* Foursquare.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C02B4351DD8F6FC0023EF3C /* Foursquare.txt */; };
-		7C02B4591DD8F6FC0023EF3C /* Instagram.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C02B4361DD8F6FC0023EF3C /* Instagram.txt */; };
 		7C02B45A1DD8F6FC0023EF3C /* Janitors.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C02B4371DD8F6FC0023EF3C /* Janitors.txt */; };
 		7C02B45B1DD8F6FC0023EF3C /* Journalists.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C02B4381DD8F6FC0023EF3C /* Journalists.txt */; };
 		7C02B45C1DD8F6FC0023EF3C /* Netflix.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C02B4391DD8F6FC0023EF3C /* Netflix.txt */; };
-		7C02B45D1DD8F6FC0023EF3C /* News app.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C02B43A1DD8F6FC0023EF3C /* News app.txt */; };
+		7C02B45D1DD8F6FC0023EF3C /* News App.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C02B43A1DD8F6FC0023EF3C /* News App.txt */; };
 		7C02B45E1DD8F6FC0023EF3C /* Parents.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C02B43B1DD8F6FC0023EF3C /* Parents.txt */; };
 		7C02B45F1DD8F6FC0023EF3C /* Periscope.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C02B43C1DD8F6FC0023EF3C /* Periscope.txt */; };
-		7C02B4601DD8F6FC0023EF3C /* Pet owners.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C02B43D1DD8F6FC0023EF3C /* Pet owners.txt */; };
-		7C02B4611DD8F6FC0023EF3C /* Reading news.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C02B43E1DD8F6FC0023EF3C /* Reading news.txt */; };
+		7C02B4601DD8F6FC0023EF3C /* Pet Owners.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C02B43D1DD8F6FC0023EF3C /* Pet Owners.txt */; };
+		7C02B4611DD8F6FC0023EF3C /* Reading News.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C02B43E1DD8F6FC0023EF3C /* Reading News.txt */; };
 		7C02B4621DD8F6FC0023EF3C /* Singers.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C02B43F1DD8F6FC0023EF3C /* Singers.txt */; };
-		7C02B4631DD8F6FC0023EF3C /* Snapchat.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C02B4401DD8F6FC0023EF3C /* Snapchat.txt */; };
 		7C02B4641DD8F6FC0023EF3C /* Soundcloud.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C02B4411DD8F6FC0023EF3C /* Soundcloud.txt */; };
 		7C02B4651DD8F6FC0023EF3C /* Spotify.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C02B4421DD8F6FC0023EF3C /* Spotify.txt */; };
 		7C02B4661DD8F6FC0023EF3C /* Streaming.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C02B4431DD8F6FC0023EF3C /* Streaming.txt */; };
@@ -46,14 +40,14 @@
 		7C02B4681DD8F6FC0023EF3C /* Teachers.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C02B4451DD8F6FC0023EF3C /* Teachers.txt */; };
 		7C02B4691DD8F6FC0023EF3C /* Teens.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C02B4461DD8F6FC0023EF3C /* Teens.txt */; };
 		7C02B46A1DD8F6FC0023EF3C /* Tinder.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C02B4471DD8F6FC0023EF3C /* Tinder.txt */; };
-		7C02B46B1DD8F6FC0023EF3C /* Travel app.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C02B4481DD8F6FC0023EF3C /* Travel app.txt */; };
+		7C02B46B1DD8F6FC0023EF3C /* Travel App.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C02B4481DD8F6FC0023EF3C /* Travel App.txt */; };
 		7C02B46C1DD8F6FC0023EF3C /* Travellers.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C02B4491DD8F6FC0023EF3C /* Travellers.txt */; };
 		7C02B46D1DD8F6FC0023EF3C /* Twitter.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C02B44A1DD8F6FC0023EF3C /* Twitter.txt */; };
 		7C02B46E1DD8F6FC0023EF3C /* Uber.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C02B44B1DD8F6FC0023EF3C /* Uber.txt */; };
 		7C02B46F1DD8F6FC0023EF3C /* Videochat.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C02B44C1DD8F6FC0023EF3C /* Videochat.txt */; };
 		7C02B4701DD8F6FC0023EF3C /* Waiters.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C02B44D1DD8F6FC0023EF3C /* Waiters.txt */; };
 		7C02B4711DD8F6FC0023EF3C /* Yelp.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C02B44E1DD8F6FC0023EF3C /* Yelp.txt */; };
-		7C02B4731DD8F7090023EF3C /* Camera app.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C02B4721DD8F7090023EF3C /* Camera app.txt */; };
+		7C02B4731DD8F7090023EF3C /* Camera App.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C02B4721DD8F7090023EF3C /* Camera App.txt */; };
 		7C563BD31DD8210C0069AD97 /* Pets.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C563BD11DD8210C0069AD97 /* Pets.txt */; };
 		7C563BD41DD8210C0069AD97 /* Vine.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C563BD21DD8210C0069AD97 /* Vine.txt */; };
 		7C579CEC1DD4CB92006331D4 /* ProjectEpsilonLogoWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C579CEB1DD4CB92006331D4 /* ProjectEpsilonLogoWhite.png */; };
@@ -88,38 +82,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00822B611DDA79DC0053EF42 /* Instagram.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Instagram.txt; path = ../../../.Trash/Instagram.txt; sourceTree = "<group>"; };
+		00822B631DDA79EB0053EF42 /* Candy Crush.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Candy Crush.txt"; path = "../../../.Trash/Candy Crush.txt"; sourceTree = "<group>"; };
+		00822B641DDA79EB0053EF42 /* Craigslist.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Craigslist.txt; path = ../../../.Trash/Craigslist.txt; sourceTree = "<group>"; };
+		00822B651DDA79EB0053EF42 /* Instagram.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Instagram.txt; path = ../../../.Trash/Instagram.txt; sourceTree = "<group>"; };
+		00822B691DDA7CB20053EF42 /* Snapchat.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Snapchat.txt; path = ../../../.Trash/Snapchat.txt; sourceTree = "<group>"; };
+		00822B6B1DDA86310053EF42 /* Spark-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Spark-Bridging-Header.h"; sourceTree = "<group>"; };
+		00822B6C1DDA86320053EF42 /* FBShimmering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBShimmering.h; path = "../../../Downloads/Shimmer-master/FBShimmering/FBShimmering.h"; sourceTree = "<group>"; };
+		00822B6D1DDA86320053EF42 /* FBShimmeringLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBShimmeringLayer.h; path = "../../../Downloads/Shimmer-master/FBShimmering/FBShimmeringLayer.h"; sourceTree = "<group>"; };
+		00822B6E1DDA86320053EF42 /* FBShimmeringLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBShimmeringLayer.m; path = "../../../Downloads/Shimmer-master/FBShimmering/FBShimmeringLayer.m"; sourceTree = "<group>"; };
+		00822B6F1DDA86320053EF42 /* FBShimmeringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBShimmeringView.h; path = "../../../Downloads/Shimmer-master/FBShimmering/FBShimmeringView.h"; sourceTree = "<group>"; };
+		00822B701DDA86320053EF42 /* FBShimmeringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBShimmeringView.m; path = "../../../Downloads/Shimmer-master/FBShimmering/FBShimmeringView.m"; sourceTree = "<group>"; };
 		00BE410B1DD81A8C004475CF /* MoreInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreInfo.swift; sourceTree = "<group>"; };
-		00BE410D1DD82EE8004475CF /* Instagram.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Instagram.txt; sourceTree = "<group>"; };
-		00BE410F1DD82FB4004475CF /* Candy crush.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Candy crush.txt"; sourceTree = "<group>"; };
-		00BE41111DD82FBD004475CF /* Craigslist.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Craigslist.txt; sourceTree = "<group>"; };
-		00BE41131DD82FC7004475CF /* Snapchat.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Snapchat.txt; sourceTree = "<group>"; };
-		00BE41151DD82FD7004475CF /* Spotify.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Spotify.txt; sourceTree = "<group>"; };
 		00BE41161DD82FD7004475CF /* Tinder.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Tinder.txt; sourceTree = "<group>"; };
-		00BE41171DD82FD7004475CF /* Travel app.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Travel app.txt"; sourceTree = "<group>"; };
-		00BE41181DD82FD7004475CF /* Twitter.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Twitter.txt; sourceTree = "<group>"; };
-		00BE41191DD82FD7004475CF /* Uber.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Uber.txt; sourceTree = "<group>"; };
-		00BE411A1DD82FD7004475CF /* Videochat.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Videochat.txt; sourceTree = "<group>"; };
 		7C02B42C1DD8F6FC0023EF3C /* Accountants.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Accountants.txt; sourceTree = "<group>"; };
 		7C02B42D1DD8F6FC0023EF3C /* Artists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Artists.txt; sourceTree = "<group>"; };
 		7C02B42E1DD8F6FC0023EF3C /* Bloggers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Bloggers.txt; sourceTree = "<group>"; };
-		7C02B42F1DD8F6FC0023EF3C /* Candy crush.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Candy crush.txt"; sourceTree = "<group>"; };
 		7C02B4301DD8F6FC0023EF3C /* Children.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Children.txt; sourceTree = "<group>"; };
 		7C02B4311DD8F6FC0023EF3C /* Collectors.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Collectors.txt; sourceTree = "<group>"; };
 		7C02B4321DD8F6FC0023EF3C /* Cooks.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cooks.txt; sourceTree = "<group>"; };
-		7C02B4331DD8F6FC0023EF3C /* Craigslist.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Craigslist.txt; sourceTree = "<group>"; };
 		7C02B4341DD8F6FC0023EF3C /* Doctors.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Doctors.txt; sourceTree = "<group>"; };
 		7C02B4351DD8F6FC0023EF3C /* Foursquare.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Foursquare.txt; sourceTree = "<group>"; };
-		7C02B4361DD8F6FC0023EF3C /* Instagram.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Instagram.txt; sourceTree = "<group>"; };
 		7C02B4371DD8F6FC0023EF3C /* Janitors.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Janitors.txt; sourceTree = "<group>"; };
 		7C02B4381DD8F6FC0023EF3C /* Journalists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Journalists.txt; sourceTree = "<group>"; };
 		7C02B4391DD8F6FC0023EF3C /* Netflix.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Netflix.txt; sourceTree = "<group>"; };
-		7C02B43A1DD8F6FC0023EF3C /* News app.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "News app.txt"; sourceTree = "<group>"; };
+		7C02B43A1DD8F6FC0023EF3C /* News App.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "News App.txt"; sourceTree = "<group>"; };
 		7C02B43B1DD8F6FC0023EF3C /* Parents.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Parents.txt; sourceTree = "<group>"; };
 		7C02B43C1DD8F6FC0023EF3C /* Periscope.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Periscope.txt; sourceTree = "<group>"; };
-		7C02B43D1DD8F6FC0023EF3C /* Pet owners.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Pet owners.txt"; sourceTree = "<group>"; };
-		7C02B43E1DD8F6FC0023EF3C /* Reading news.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Reading news.txt"; sourceTree = "<group>"; };
+		7C02B43D1DD8F6FC0023EF3C /* Pet Owners.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Pet Owners.txt"; sourceTree = "<group>"; };
+		7C02B43E1DD8F6FC0023EF3C /* Reading News.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Reading News.txt"; sourceTree = "<group>"; };
 		7C02B43F1DD8F6FC0023EF3C /* Singers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Singers.txt; sourceTree = "<group>"; };
-		7C02B4401DD8F6FC0023EF3C /* Snapchat.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Snapchat.txt; sourceTree = "<group>"; };
 		7C02B4411DD8F6FC0023EF3C /* Soundcloud.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Soundcloud.txt; sourceTree = "<group>"; };
 		7C02B4421DD8F6FC0023EF3C /* Spotify.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Spotify.txt; sourceTree = "<group>"; };
 		7C02B4431DD8F6FC0023EF3C /* Streaming.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Streaming.txt; sourceTree = "<group>"; };
@@ -127,14 +119,14 @@
 		7C02B4451DD8F6FC0023EF3C /* Teachers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Teachers.txt; sourceTree = "<group>"; };
 		7C02B4461DD8F6FC0023EF3C /* Teens.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Teens.txt; sourceTree = "<group>"; };
 		7C02B4471DD8F6FC0023EF3C /* Tinder.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Tinder.txt; sourceTree = "<group>"; };
-		7C02B4481DD8F6FC0023EF3C /* Travel app.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Travel app.txt"; sourceTree = "<group>"; };
+		7C02B4481DD8F6FC0023EF3C /* Travel App.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Travel App.txt"; sourceTree = "<group>"; };
 		7C02B4491DD8F6FC0023EF3C /* Travellers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Travellers.txt; sourceTree = "<group>"; };
 		7C02B44A1DD8F6FC0023EF3C /* Twitter.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Twitter.txt; sourceTree = "<group>"; };
 		7C02B44B1DD8F6FC0023EF3C /* Uber.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Uber.txt; sourceTree = "<group>"; };
 		7C02B44C1DD8F6FC0023EF3C /* Videochat.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Videochat.txt; sourceTree = "<group>"; };
 		7C02B44D1DD8F6FC0023EF3C /* Waiters.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Waiters.txt; sourceTree = "<group>"; };
 		7C02B44E1DD8F6FC0023EF3C /* Yelp.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Yelp.txt; sourceTree = "<group>"; };
-		7C02B4721DD8F7090023EF3C /* Camera app.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Camera app.txt"; sourceTree = "<group>"; };
+		7C02B4721DD8F7090023EF3C /* Camera App.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Camera App.txt"; sourceTree = "<group>"; };
 		7C563BD11DD8210C0069AD97 /* Pets.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Pets.txt; sourceTree = "<group>"; };
 		7C563BD21DD8210C0069AD97 /* Vine.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Vine.txt; sourceTree = "<group>"; };
 		7C579CEB1DD4CB92006331D4 /* ProjectEpsilonLogoWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ProjectEpsilonLogoWhite.png; sourceTree = "<group>"; };
@@ -205,6 +197,11 @@
 		7CD096C51DD15663009D0314 /* Spark */ = {
 			isa = PBXGroup;
 			children = (
+				00822B6C1DDA86320053EF42 /* FBShimmering.h */,
+				00822B6D1DDA86320053EF42 /* FBShimmeringLayer.h */,
+				00822B6E1DDA86320053EF42 /* FBShimmeringLayer.m */,
+				00822B6F1DDA86320053EF42 /* FBShimmeringView.h */,
+				00822B701DDA86320053EF42 /* FBShimmeringView.m */,
 				00BE410B1DD81A8C004475CF /* MoreInfo.swift */,
 				7CD096C61DD15663009D0314 /* AppDelegate.swift */,
 				7C579CF71DD5386C006331D4 /* SlideMenuController.swift */,
@@ -217,54 +214,46 @@
 				7C02B42C1DD8F6FC0023EF3C /* Accountants.txt */,
 				7C02B42D1DD8F6FC0023EF3C /* Artists.txt */,
 				7C02B42E1DD8F6FC0023EF3C /* Bloggers.txt */,
-				7C02B4721DD8F7090023EF3C /* Camera app.txt */,
-				7C02B42F1DD8F6FC0023EF3C /* Candy crush.txt */,
+				7C02B4721DD8F7090023EF3C /* Camera App.txt */,
 				7C02B4301DD8F6FC0023EF3C /* Children.txt */,
 				7C02B4311DD8F6FC0023EF3C /* Collectors.txt */,
 				7C02B4321DD8F6FC0023EF3C /* Cooks.txt */,
-				7C02B4331DD8F6FC0023EF3C /* Craigslist.txt */,
+				00822B631DDA79EB0053EF42 /* Candy Crush.txt */,
+				00822B641DDA79EB0053EF42 /* Craigslist.txt */,
+				00822B651DDA79EB0053EF42 /* Instagram.txt */,
 				7C02B4341DD8F6FC0023EF3C /* Doctors.txt */,
 				7C02B4351DD8F6FC0023EF3C /* Foursquare.txt */,
-				7C02B4361DD8F6FC0023EF3C /* Instagram.txt */,
 				7C02B4371DD8F6FC0023EF3C /* Janitors.txt */,
 				7C02B4381DD8F6FC0023EF3C /* Journalists.txt */,
 				7C02B4391DD8F6FC0023EF3C /* Netflix.txt */,
-				7C02B43A1DD8F6FC0023EF3C /* News app.txt */,
+				7C02B43A1DD8F6FC0023EF3C /* News App.txt */,
 				7C02B43B1DD8F6FC0023EF3C /* Parents.txt */,
 				7C02B43C1DD8F6FC0023EF3C /* Periscope.txt */,
-				7C02B43D1DD8F6FC0023EF3C /* Pet owners.txt */,
-				7C02B43E1DD8F6FC0023EF3C /* Reading news.txt */,
+				7C02B43D1DD8F6FC0023EF3C /* Pet Owners.txt */,
+				7C02B43E1DD8F6FC0023EF3C /* Reading News.txt */,
 				7C02B43F1DD8F6FC0023EF3C /* Singers.txt */,
-				7C02B4401DD8F6FC0023EF3C /* Snapchat.txt */,
 				7C02B4411DD8F6FC0023EF3C /* Soundcloud.txt */,
+				00822B691DDA7CB20053EF42 /* Snapchat.txt */,
+				00822B611DDA79DC0053EF42 /* Instagram.txt */,
 				7C02B4421DD8F6FC0023EF3C /* Spotify.txt */,
 				7C02B4431DD8F6FC0023EF3C /* Streaming.txt */,
 				7C02B4441DD8F6FC0023EF3C /* Students.txt */,
 				7C02B4451DD8F6FC0023EF3C /* Teachers.txt */,
 				7C02B4461DD8F6FC0023EF3C /* Teens.txt */,
 				7C02B4471DD8F6FC0023EF3C /* Tinder.txt */,
-				7C02B4481DD8F6FC0023EF3C /* Travel app.txt */,
+				7C02B4481DD8F6FC0023EF3C /* Travel App.txt */,
 				7C02B4491DD8F6FC0023EF3C /* Travellers.txt */,
-				7C02B44A1DD8F6FC0023EF3C /* Twitter.txt */,
 				7C02B44B1DD8F6FC0023EF3C /* Uber.txt */,
 				7C02B44C1DD8F6FC0023EF3C /* Videochat.txt */,
 				7C02B44D1DD8F6FC0023EF3C /* Waiters.txt */,
 				7C02B44E1DD8F6FC0023EF3C /* Yelp.txt */,
-				00BE410D1DD82EE8004475CF /* Instagram.txt */,
-				00BE41111DD82FBD004475CF /* Craigslist.txt */,
-				00BE41131DD82FC7004475CF /* Snapchat.txt */,
 				7C563BD11DD8210C0069AD97 /* Pets.txt */,
-				00BE410F1DD82FB4004475CF /* Candy crush.txt */,
 				7C563BD21DD8210C0069AD97 /* Vine.txt */,
-				00BE41151DD82FD7004475CF /* Spotify.txt */,
 				00BE41161DD82FD7004475CF /* Tinder.txt */,
-				00BE41171DD82FD7004475CF /* Travel app.txt */,
-				00BE41181DD82FD7004475CF /* Twitter.txt */,
-				00BE41191DD82FD7004475CF /* Uber.txt */,
-				00BE411A1DD82FD7004475CF /* Videochat.txt */,
 				7CD096CD1DD15663009D0314 /* Assets.xcassets */,
 				7CD096CF1DD15663009D0314 /* LaunchScreen.storyboard */,
 				7CD096D21DD15663009D0314 /* Info.plist */,
+				00822B6B1DDA86310053EF42 /* Spark-Bridging-Header.h */,
 			);
 			path = Spark;
 			sourceTree = "<group>";
@@ -355,7 +344,8 @@
 				TargetAttributes = {
 					7CD096C21DD15663009D0314 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = ZQGAYPC9E8;
+						DevelopmentTeam = B7A79B695Q;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					7CD096D61DD15663009D0314 = {
@@ -396,59 +386,51 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C02B4571DD8F6FC0023EF3C /* Doctors.txt in Resources */,
-				7C02B4591DD8F6FC0023EF3C /* Instagram.txt in Resources */,
 				7C02B46A1DD8F6FC0023EF3C /* Tinder.txt in Resources */,
 				7C563BD41DD8210C0069AD97 /* Vine.txt in Resources */,
-				7C02B46B1DD8F6FC0023EF3C /* Travel app.txt in Resources */,
-				7C02B4561DD8F6FC0023EF3C /* Craigslist.txt in Resources */,
+				7C02B46B1DD8F6FC0023EF3C /* Travel App.txt in Resources */,
 				7C02B45A1DD8F6FC0023EF3C /* Janitors.txt in Resources */,
 				7C02B4661DD8F6FC0023EF3C /* Streaming.txt in Resources */,
 				7C02B4531DD8F6FC0023EF3C /* Children.txt in Resources */,
 				7C02B4671DD8F6FC0023EF3C /* Students.txt in Resources */,
 				7C02B4711DD8F6FC0023EF3C /* Yelp.txt in Resources */,
 				7C02B45E1DD8F6FC0023EF3C /* Parents.txt in Resources */,
-				7C02B4601DD8F6FC0023EF3C /* Pet owners.txt in Resources */,
+				00822B6A1DDA7CB20053EF42 /* Snapchat.txt in Resources */,
+				7C02B4601DD8F6FC0023EF3C /* Pet Owners.txt in Resources */,
+				00822B681DDA79EB0053EF42 /* Instagram.txt in Resources */,
+				00822B661DDA79EB0053EF42 /* Candy Crush.txt in Resources */,
 				7C579CF61DD5376E006331D4 /* SparkLogoWhite.png in Resources */,
 				7C02B4511DD8F6FC0023EF3C /* Bloggers.txt in Resources */,
 				7C02B4551DD8F6FC0023EF3C /* Cooks.txt in Resources */,
 				7C02B46D1DD8F6FC0023EF3C /* Twitter.txt in Resources */,
 				7C02B46F1DD8F6FC0023EF3C /* Videochat.txt in Resources */,
-				7C02B45D1DD8F6FC0023EF3C /* News app.txt in Resources */,
+				7C02B45D1DD8F6FC0023EF3C /* News App.txt in Resources */,
+				00822B621DDA79DC0053EF42 /* Instagram.txt in Resources */,
 				7C02B4641DD8F6FC0023EF3C /* Soundcloud.txt in Resources */,
-				00BE41201DD82FD7004475CF /* Videochat.txt in Resources */,
 				7C579CF41DD53761006331D4 /* SparkLogo Colored.png in Resources */,
 				7C02B4501DD8F6FC0023EF3C /* Artists.txt in Resources */,
 				7C02B46E1DD8F6FC0023EF3C /* Uber.txt in Resources */,
 				7C02B4651DD8F6FC0023EF3C /* Spotify.txt in Resources */,
 				7C02B45C1DD8F6FC0023EF3C /* Netflix.txt in Resources */,
-				7C02B4521DD8F6FC0023EF3C /* Candy crush.txt in Resources */,
-				7C02B4631DD8F6FC0023EF3C /* Snapchat.txt in Resources */,
 				7CD096D11DD15663009D0314 /* LaunchScreen.storyboard in Resources */,
 				7C02B4581DD8F6FC0023EF3C /* Foursquare.txt in Resources */,
 				7C02B45F1DD8F6FC0023EF3C /* Periscope.txt in Resources */,
-				7C02B4731DD8F7090023EF3C /* Camera app.txt in Resources */,
+				7C02B4731DD8F7090023EF3C /* Camera App.txt in Resources */,
 				7C02B46C1DD8F6FC0023EF3C /* Travellers.txt in Resources */,
-				00BE410E1DD82EE8004475CF /* Instagram.txt in Resources */,
 				7C579CEC1DD4CB92006331D4 /* ProjectEpsilonLogoWhite.png in Resources */,
 				7C02B4691DD8F6FC0023EF3C /* Teens.txt in Resources */,
 				7C02B4701DD8F6FC0023EF3C /* Waiters.txt in Resources */,
 				7C02B4621DD8F6FC0023EF3C /* Singers.txt in Resources */,
-				7C02B4611DD8F6FC0023EF3C /* Reading news.txt in Resources */,
+				7C02B4611DD8F6FC0023EF3C /* Reading News.txt in Resources */,
 				7C02B45B1DD8F6FC0023EF3C /* Journalists.txt in Resources */,
 				7CD096CE1DD15663009D0314 /* Assets.xcassets in Resources */,
 				7C02B4681DD8F6FC0023EF3C /* Teachers.txt in Resources */,
 				7C02B44F1DD8F6FC0023EF3C /* Accountants.txt in Resources */,
-				00BE41101DD82FB4004475CF /* Candy crush.txt in Resources */,
 				00BE411C1DD82FD7004475CF /* Tinder.txt in Resources */,
-				00BE411B1DD82FD7004475CF /* Spotify.txt in Resources */,
-				00BE41141DD82FC7004475CF /* Snapchat.txt in Resources */,
-				00BE411D1DD82FD7004475CF /* Travel app.txt in Resources */,
-				00BE411E1DD82FD7004475CF /* Twitter.txt in Resources */,
+				00822B671DDA79EB0053EF42 /* Craigslist.txt in Resources */,
 				7CD096CC1DD15663009D0314 /* Main.storyboard in Resources */,
 				7C02B4541DD8F6FC0023EF3C /* Collectors.txt in Resources */,
 				7C563BD31DD8210C0069AD97 /* Pets.txt in Resources */,
-				00BE411F1DD82FD7004475CF /* Uber.txt in Resources */,
-				00BE41121DD82FBD004475CF /* Craigslist.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,8 +455,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00822B711DDA86320053EF42 /* FBShimmeringLayer.m in Sources */,
 				7CD096C91DD15663009D0314 /* ViewController.swift in Sources */,
 				00BE410C1DD81A8C004475CF /* MoreInfo.swift in Sources */,
+				00822B721DDA86320053EF42 /* FBShimmeringView.m in Sources */,
 				7C579CF81DD5386C006331D4 /* SlideMenuController.swift in Sources */,
 				7C579CFA1DD54741006331D4 /* FavoritesTable.swift in Sources */,
 				7CD096C71DD15663009D0314 /* AppDelegate.swift in Sources */,
@@ -629,13 +613,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = ZQGAYPC9E8;
+				DEVELOPMENT_TEAM = B7A79B695Q;
 				INFOPLIST_FILE = Spark/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Sunrose.Spark;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Spark/Spark-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -645,13 +632,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = ZQGAYPC9E8;
+				DEVELOPMENT_TEAM = B7A79B695Q;
 				INFOPLIST_FILE = Spark/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Sunrose.Spark;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Spark/Spark-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

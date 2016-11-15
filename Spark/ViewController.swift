@@ -17,12 +17,15 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var ideaLabel: UILabel!
     
+    @IBAction func favoritesClicked(_ sender: Any) {
+        self.slideMenuController()?.openRight()
+    }
     
     
     @IBAction func buttonClicked(_ sender: Any) {
         ideaLabel.text = apps[Int(arc4random() % 18)] + " for " + ideas[Int(arc4random() % 20)]
 
-        ideaLabel.text = apps[Int(arc4random() % 19)] + " for " + ideas[Int(arc4random() % 20)]
+        ideaLabel.text = apps[Int(arc4random() % 18)] + " for " + ideas[Int(arc4random() % 20)]
     }
     
     override var prefersStatusBarHidden: Bool{
@@ -33,7 +36,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         ideaLabel.text = apps[Int(arc4random() % 18)] + " for " + ideas[Int(arc4random() % 20)]
 
-        ideaLabel.text = apps[Int(arc4random() % 19)] + " for " + ideas[Int(arc4random() % 20)]
+        ideaLabel.text = apps[Int(arc4random() % 18)] + " for " + ideas[Int(arc4random() % 20)]
 
         InspireMe.layer.cornerRadius = 20
         
@@ -47,7 +50,7 @@ class ViewController: UIViewController {
     func tap(){
         let defaults = UserDefaults.standard
         if var list = defaults.array(forKey: "favorites") {
-            list.append(ideaLabel.text)
+            list.insert(ideaLabel.text, at: 0)
             print(list)
             defaults.set(list, forKey: "favorites")
             NotificationCenter.default.post(name: NSNotification.Name(rawValue: "load"), object: nil)

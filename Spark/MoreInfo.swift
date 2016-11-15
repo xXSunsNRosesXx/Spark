@@ -20,6 +20,8 @@ class MoreInfo: UIViewController {
     @IBOutlet weak var label4: UILabel!
     @IBOutlet weak var label5: UILabel!
     @IBOutlet weak var label6: UILabel!
+    
+
     @IBOutlet weak var view1: UIView!
     @IBOutlet weak var view2: UIView!
     
@@ -27,6 +29,7 @@ class MoreInfo: UIViewController {
     var option2 = ""
     
     func swipeBack() {
+        print("TESTING")
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let mainViewController = storyboard.instantiateViewController(withIdentifier: "main")
         let leftViewController = storyboard.instantiateViewController(withIdentifier: "favorites")
@@ -39,19 +42,25 @@ class MoreInfo: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let defaults = UserDefaults.standard
-        
+        print("I HAVE BOOTED")
         if let options = defaults.array(forKey: "currentInfo") {
-            option1 = options[0] as! String
+            option1 = (options[0] as! String).capitalized
             option2 = (options[1] as! String).capitalized
+            option2 = option2.replacingOccurrences(of: ">", with: "", options: NSString.CompareOptions.literal, range:nil)
             
+            print("I GOT THE DATA: " + option1 + " and " + option2)
             header1.text = option1
             header2.text = option2
             
-            var swipe = UISwipeGestureRecognizer(target: self, action: #selector(swipeBack))
-            swipe.direction = UISwipeGestureRecognizerDirection.right
+            let firstSwipe = UISwipeGestureRecognizer(target: self, action: #selector(swipeBack))
+            firstSwipe.direction = UISwipeGestureRecognizerDirection.right
             
-            view1.addGestureRecognizer(swipe)
-            view2.addGestureRecognizer(swipe)
+            let secondSwipe = UISwipeGestureRecognizer(target: self, action: #selector(swipeBack))
+            secondSwipe.direction = UISwipeGestureRecognizerDirection.right
+            
+            
+            view1.addGestureRecognizer(firstSwipe)
+            view2.addGestureRecognizer(secondSwipe)
             
             view1.isUserInteractionEnabled = true
             view2.isUserInteractionEnabled = true
